@@ -1,9 +1,9 @@
 package com.crud.crudClientes.service;
 
-import com.crud.crudClientes.model.ClientModel;
+import com.crud.crudClientes.dto.ClientDTO;
 
 import java.util.List;
 
 public interface ClientService {
-    List<ClientModel> getAllClients();
+    List<ClientDTO> getAllClients();
 }
